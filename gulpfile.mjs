@@ -6,6 +6,7 @@ import gulpSass from 'gulp-sass';
 import autoprefixer from 'gulp-autoprefixer';
 import cleanCSS from 'gulp-clean-css';
 import concat from 'gulp-concat';
+import babel from 'gulp-babel'
 import uglify from 'gulp-uglify';
 import browserSync from 'browser-sync';
 
