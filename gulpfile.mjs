@@ -83,7 +83,7 @@ function serve() {
   // Assistir mudanças nos arquivos Sass, JS e HTML e recarregar o navegador
   watch('src/scss/**/*.scss', compileSass);
   watch('src/js/*.js', minifyJS);
-  watch('src/*.html').on('change', browserSync.reload);
+  watch('src/*.html', copyHTML);
 }
 
 // Exporta tarefas individuais
